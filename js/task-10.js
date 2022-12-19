@@ -2,24 +2,11 @@ function getRandomHexColor() {
   return `#${Math.floor(Math.random() * 16777215).toString(16)}`;
 }
 
-//in progress..
-
-//const controlsBox = document.querySelector("#controls");
 const inputEl = document.querySelector("input");
 const boxesEl = document.querySelector("#boxes");
 
 const createBtn = document.querySelector("[data-create]");
 const destroyBtn = document.querySelector("[data-destroy]");
-
-//let newInputValue = 0;
-
-// const createBoxes = (amount) => {
-//   const boxesDiv = [];
-//   if (boxesDiv.length > amount) {
-//     newInputValue += 10;
-//     const megaBox = document.createElement("div");
-//   }
-// };
 
 function createBoxes(amount) {
   const boxesDiv = [];
