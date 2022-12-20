@@ -21,7 +21,7 @@ galleryRef.style.gap = "15px";
 galleryRef.style.flexDirection = "row";
 
 const galleryCardRef = ({ url, alt } = {}) => {
-  const imagesListRef = `<li><img scr = '${url}' alt = '${alt}' width = '200px' height = '125px'></li>`;
+  const imagesListRef = `<li><img src = '${url}' alt = '${alt}' width = '200px' height = '125px'></li>`;
   return imagesListRef;
 };
 
