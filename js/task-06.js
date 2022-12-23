@@ -13,4 +13,4 @@ function checkNumbers () {
   }
 };
 
-validationInputRef.addEventListener("click", checkNumbers);
+validationInputRef.addEventListener("blur", checkNumbers);
