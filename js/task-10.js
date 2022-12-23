@@ -10,6 +10,7 @@ const destroyBtn = document.querySelector("[data-destroy]");
 
 function createBoxes(amount) {
   const boxesDiv = [];
+  const lastBoxSize = boxesEl.querySelectorAll("div").length;
   for (let i = 1; i <= amount; i += 1) {
     const div = document.createElement("div");
     let height = 30 + (i - 1) * 10;
